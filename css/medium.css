@@ -1,0 +1,14 @@
+@media only screen and (min-width: 32.5em) { 
+    img {
+        float: right;
+    }
+
+    h1 {
+        font-family: 'Unna', serif;
+        background-color: #264653;
+        color: white;
+        border-radius: 10px;
+        text-align: left;
+        padding-left: 1em;
+    }
+}
