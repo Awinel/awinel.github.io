@@ -10,8 +10,12 @@ header {
 
 }
 
-:hover a {
+a:hover {
     color: #bbc903;
+}
+
+a:visited {
+    color:blueviolet;
 }
 h1 {
     font-family: 'Unna', serif;
