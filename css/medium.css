@@ -1,14 +1,14 @@
-@media only screen and (min-width: 32.5em) { 
+@media only screen and (min-width: 32.4em) { 
     #profile_photo {
         float: right;
     }
-
-    h1 {
-        font-family: 'Unna', serif;
-        background-color: #264653;
-        color: white;
-        border-radius: 10px;
-        text-align: left;
-        padding-left: 1em;
+    .grid_01{
+        grid-template-columns: repeat(2, 1fr);
     }
+    
+    .section_03 {
+        text-align: center;
+        grid-column: 1 / 3;
+    }
+
 }
