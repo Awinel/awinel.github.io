@@ -24,17 +24,26 @@ h1 {
     color: white;
     border-radius: 10px;
     padding-left: 1em;
+    
 }
 
 h2 {
     font-family: 'Quicksand', sans-serif;
-    padding: 20px;
+    padding: 10px;
+}
+
+a {
+    padding: 10px;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
 }
 
 p {
-    text-align: justify;
     font-family: 'Libre Baskerville', serif;
-    padding: 5px;
+    padding: 10px;
 }
 
 #profile_photo {
@@ -42,6 +51,38 @@ p {
     height: auto;
     margin-top: 20px;
     margin-right: 20px;
+}
+
+.grid_01 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}    
+
+.section_01 {
+    background-color: #264653;
+    border-radius: 30px 30px 0px 0px;
+    border: solid 1px;
+    
+}
+
+.article {
+    background-color: #6c757d;
+    margin-top: 0;
+    border-radius: 30px 30px 0px 0px;
+    border: solid 1px;
+} 
+
+.section_02 {
+    background-color: #264653;
+    border-radius: 30px 30px 0px 0px;
+    border: solid 1px;
+}
+
+.section_03 {
+    background-color: #264653;
+    border-radius: 30px 30px 0px 0px;
+    border: solid 1px;
 }
 
 nav {
@@ -53,17 +94,8 @@ nav li {
     display: inline-block;
 }
 
-#grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row: auto;    
-}
-
-.section_01 {
-    display: ;
-}
-
 img {
+    align-content: center;
     max-width: 200px;
     height: auto;
     margin-top: 20px;

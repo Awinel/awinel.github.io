@@ -1,0 +1,46 @@
+@media only screen and (min-width: 64em) {
+    #profile_photo {
+        float: right;
+    }
+
+    h1 {
+        font-family: 'Unna', serif;
+        background-color: #264653;
+        color: white;
+        border-radius: 10px;
+        text-align: left;
+        padding-left: 1em;
+        
+    }
+    .section_03 {
+        text-align: center;
+        grid-column: 3 / 4;
+    }
+    .grid_01 {
+        grid-template-columns: repeat(3, 1fr);
+    }    
+    
+    .article {
+        grid-row: 1 / 2;
+    }
+
+    .company {
+        grid-row: 2 / 3;
+    }
+
+    .first_image {
+        grid-row: 3 / 4;
+    }
+
+    .paragraph {
+        grid-row: 4 / 5;
+    }
+
+    #header {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: left;
+    }
+}
