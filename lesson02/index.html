@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="eng-us">
+<html lang="en-us">
 
 <head>
     <meta charset="utf-8">
     <meta name="author" content="Benjamin A. Huerta T.">
     <meta name="description" content="Create a weather site will all specification from the instructor">
     <title>Shinedaymate</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
     <link rel="script" href="scripts/date.js">
+    <link rel="stylesheet" href="scripts/weather.js">
 </head>
 
 <body>
@@ -19,23 +22,63 @@
     </header>
     <main>
         <nav>
+            Home, Preston, Soda Springs, Fish Haven, Storm Center, and Gallery
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="target-audience.html">Target Audience</a></li>
-                <li><a href="color-scheme.html">Color Scheme</a></li>
-                <li><a href="target-audience.html">Typography</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="soda-springs.html">Soda Springs</a></li>
+                <li><a href="fish-haven.html">Fish Haven</a></li>
+                <li><a href="storm-center.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
             </ul>
         </nav>
+        <h1>Current weather</h1>
+        <section id="prestonWeather">
+            <div id="fistCity">Preston</div>
+            <div class="townDate">Date</div>
+        </section>
+        <div class="current">
+            <div id="firstTemp">15 <span>°c</span></div>
+            <div id="firstweather">weather</div>
+            <div id="firstHi-low">13°c / 16°c</div>
+        </div>
+        <section id="sodaspringsWeather">
+            <div id="secondCity">Soda Springs</div>
+            <div class="townDate">Date</div>
+        </section>
+        <div class="current">
+            <div id="secondTemp">15 <span>°c</span></div>
+            <div id="secondWeather">weather</div>
+            <div id="secondHi-low">13°c / 16°c</div>
+        </div>
+        <section id="fishhavenWeather">
+            <div id="thirdCity">Fish Haven</div>
+            <div class="townDate">Date</div>
+        </section>
+        <div class="current">
+            <div id="thirdTemp">15 <span>°c</span></div>
+            <div id="thirdWeather">weather</div>
+            <div id="thirdHi-low">13°c / 16°c</div>
+        </div>
     </main>
     <footer>
-        <div class="contact-information">contact information</div>
-        <img src="#" alt="image of a map">
-        <div class="copyright">©</div>
-        <div class="author">author</div>
-        <div class="terms-of-use">link</div>
-        <div class="current-date">Date</div>
+        <img src="resources/address.png" alt="image of a map">
+        <div class="contact-information">
+
+            <h2>Contact Information</h2>
+            <p><img src="resources/mail.png" alt="mail image"> Shinedaymate@gmail.com</p>
+            <p><img src="resources/phone.png" alt="phone image"> +56(9) 1239 4567</p>
+            <p><img src="resources/location.png" alt="gps image"> Manuel Montt 53, Rancagua, O'Higgins</p>
+        </div>
+        <div class="copyright">
+            <p>© Created and designed by Benjamin Huerta</p>
+        </div>
+        <p>
+            Date:
+            <span id="currentDate"></span>
+        </p>
     </footer>
 </body>
+<script src="script/weather.js"></script>
 <script src="scripts/date.js"></script>
-
 </html>
