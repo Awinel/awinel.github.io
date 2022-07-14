@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="script" href="scripts/date.js">
-    <link rel="stylesheet" href="scripts/weather.js">
+    <link rel="stylesheet" href="scripts/fetch.js">
+    <link rel="stylesheet" href="scripts/ui.js">
+    <link rel="stylesheet" href="scripts/app.js">
 </head>
 
 <body>
@@ -22,7 +24,6 @@
     </header>
     <main>
         <nav>
-            Home, Preston, Soda Springs, Fish Haven, Storm Center, and Gallery
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="preston.html">Preston</a></li>
@@ -38,27 +39,30 @@
             <div class="townDate">Date</div>
         </section>
         <div class="current">
-            <div id="firstTemp">15 <span>°c</span></div>
-            <div id="firstweather">weather</div>
-            <div id="firstHi-low">13°c / 16°c</div>
+            <div id="firstTemp">34 <span>°c</span></div>
+            <div id="firstweather">Sunny</div>
+            <div id="firstHi-low">35°c / 16°c</div>
+            <img src="resources/sunny.png" alt="Sunny">
         </div>
         <section id="sodaspringsWeather">
             <div id="secondCity">Soda Springs</div>
             <div class="townDate">Date</div>
         </section>
         <div class="current">
-            <div id="secondTemp">15 <span>°c</span></div>
-            <div id="secondWeather">weather</div>
-            <div id="secondHi-low">13°c / 16°c</div>
+            <div id="secondTemp">30 <span>°c</span></div>
+            <div id="secondWeather">Sunny</div>
+            <div id="secondHi-low">31°c / 14°c</div>
+            <img src="resources/sunny.png" alt="Sunny">
         </div>
         <section id="fishhavenWeather">
             <div id="thirdCity">Fish Haven</div>
             <div class="townDate">Date</div>
         </section>
         <div class="current">
-            <div id="thirdTemp">15 <span>°c</span></div>
-            <div id="thirdWeather">weather</div>
-            <div id="thirdHi-low">13°c / 16°c</div>
+            <div id="thirdTemp">29 <span>°c</span></div>
+            <div id="thirdWeather">Sunny</div>
+            <div id="thirdHi-low">31°c / 14°c</div>
+            <img src="resources/sunny.png" alt="Sunny">
         </div>
     </main>
     <footer>
@@ -79,6 +83,5 @@
         </p>
     </footer>
 </body>
-<script src="script/weather.js"></script>
 <script src="scripts/date.js"></script>
 </html>
