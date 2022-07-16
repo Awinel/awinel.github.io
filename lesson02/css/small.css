@@ -1,2 +1,56 @@
 /* color https://coolors.co/palette/05668d-028090-00a896-02c39a-f0f3bd */
 
+ul{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+ul a {
+    text-decoration: none;
+}
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color:whitesmoke;
+}
+nav {
+    background: #05668D;
+    height: 80px;
+    width: 100%;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: large;
+}
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 2fr;
+}
+.logo {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+}
+.name-motto {
+    grid-column: 2 / 3; 
+}
+
+header img {
+    width: 200px;
+}
+nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+}
+a.active,a:hover {
+    background: #2aaabb;
+    transition: .5s;
+}
